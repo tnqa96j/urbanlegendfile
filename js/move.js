@@ -1,8 +1,6 @@
-$(document).ready(function () {
-  setTimeout(function () {
-    $(".loading-wrapper").fadeOut(500);
-  }, 5500);
-});
+window.onload=function(){
+  $(".loading-wrapper").fadeOut();
+}
 //右側滑單
 $(document).ready(function () {
   $(".btn").click(function () {
